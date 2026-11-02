@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enter Your Date of Birth | Protected Life</title>
+    <meta name="description" content="Provide your date of birth for SportsGuard quote eligibility and risk assessment." />
+    <meta name="robots" content="noindex,nofollow" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18540179342"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18540179342');
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script defer src="assets/js/app.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        -webkit-tap-highlight-color: transparent;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased" data-step="dob">
+    <div class="min-h-screen flex flex-col bg-[#f9fafb]">
+      <header class="bg-[#1e2b4d] px-5 pt-6 pb-4 border-b border-white/10">
+        <div class="max-w-2xl mx-auto flex flex-col items-center">
+          <img src="./ChatGPT-Image-Sep-29-2026-01_30_11-PM-2048x694.png" alt="Protected Life logo" class="w-full max-w-[180px] h-auto mb-3" />
+          <h1 class="text-white text-lg md:text-xl font-extrabold text-center tracking-tight">Compare Sports Injury Cover Quotes</h1>
+          <div class="w-full mt-4 h-1.5 rounded-full bg-white/10 overflow-hidden" aria-hidden="true">
+            <div class="h-full w-[40%] rounded-full bg-[#34d399] transition-all duration-300"></div>
+          </div>
+          <p class="mt-3 text-[10px] uppercase tracking-[0.2em] font-bold text-white/60">Stage 2 of 5</p>
+        </div>
+      </header>
+
+      <main class="flex-1 w-full">
+        <div class="max-w-2xl mx-auto px-5 py-8">
+          <section class="rounded-[28px] bg-white border border-slate-200 shadow-sm px-5 py-6 md:px-8 md:py-8" aria-labelledby="dob-heading">
+            <div class="text-center mb-6">
+              <h2 id="dob-heading" class="text-2xl md:text-3xl font-extrabold tracking-tight text-[#1e2b4d]">What is your age?</h2>
+              <p class="mt-2 text-sm text-slate-500">Your date of birth helps us calculate eligibility and risk levels.</p>
+            </div>
+
+            <form id="dob-form" class="rounded-3xl border border-slate-200 bg-slate-50 p-5 md:p-6" novalidate>
+              <div class="flex items-center gap-3 text-[#34d399] mb-4">
+                <iconify-icon icon="lucide:calendar" class="text-xl"></iconify-icon>
+                <span class="font-semibold text-sm uppercase tracking-[0.18em]">Date of birth</span>
+              </div>
+
+              <div class="grid grid-cols-3 gap-3">
+                <label class="block" for="dob-day">
+                  <span class="mb-2 block text-[10px] font-bold text-slate-500 uppercase tracking-[0.18em]">Day</span>
+                  <div class="relative">
+                    <select id="dob-day" class="h-12 w-full appearance-none rounded-xl border border-slate-200 bg-white px-3 pr-9 text-sm text-slate-700 outline-none transition focus:border-[#34d399] focus:ring-2 focus:ring-[#34d399]/20">
+                      <option value="">DD</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                    </select>
+                    <iconify-icon icon="lucide:chevron-down" class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-slate-400"></iconify-icon>
+                  </div>
+                </label>
+
+                <label class="block" for="dob-month">
+                  <span class="mb-2 block text-[10px] font-bold text-slate-500 uppercase tracking-[0.18em]">Month</span>
+                  <div class="relative">
+                    <select id="dob-month" class="h-12 w-full appearance-none rounded-xl border border-slate-200 bg-white px-3 pr-9 text-sm text-slate-700 outline-none transition focus:border-[#34d399] focus:ring-2 focus:ring-[#34d399]/20">
+                      <option value="">MM</option>
+                      <option value="1">Jan</option>
+                      <option value="2">Feb</option>
+                      <option value="3">Mar</option>
+                      <option value="4">Apr</option>
+                      <option value="5">May</option>
+                      <option value="6">Jun</option>
+                      <option value="7">Jul</option>
+                      <option value="8">Aug</option>
+                      <option value="9">Sep</option>
+                      <option value="10">Oct</option>
+                      <option value="11">Nov</option>
+                      <option value="12">Dec</option>
+                    </select>
+                    <iconify-icon icon="lucide:chevron-down" class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-slate-400"></iconify-icon>
+                  </div>
+                </label>
+
+                <label class="block" for="dob-year">
+                  <span class="mb-2 block text-[10px] font-bold text-slate-500 uppercase tracking-[0.18em]">Year</span>
+                  <div class="relative">
+                    <select id="dob-year" class="h-12 w-full appearance-none rounded-xl border border-slate-200 bg-white px-3 pr-9 text-sm text-slate-700 outline-none transition focus:border-[#34d399] focus:ring-2 focus:ring-[#34d399]/20">
+                      <option value="">YYYY</option>
+                      <option value="2008">2008</option>
+                      <option value="2007">2007</option>
+                      <option value="2006">2006</option>
+                      <option value="2005">2005</option>
+                      <option value="2004">2004</option>
+                      <option value="2003">2003</option>
+                      <option value="2002">2002</option>
+                      <option value="2001">2001</option>
+                      <option value="2000">2000</option>
+                      <option value="1999">1999</option>
+                      <option value="1998">1998</option>
+                      <option value="1997">1997</option>
+                      <option value="1996">1996</option>
+                      <option value="1995">1995</option>
+                      <option value="1994">1994</option>
+                      <option value="1993">1993</option>
+                      <option value="1992">1992</option>
+                      <option value="1991">1991</option>
+                      <option value="1990">1990</option>
+                      <option value="1989">1989</option>
+                      <option value="1988">1988</option>
+                      <option value="1987">1987</option>
+                      <option value="1986">1986</option>
+                      <option value="1985">1985</option>
+                      <option value="1984">1984</option>
+                      <option value="1983">1983</option>
+                      <option value="1982">1982</option>
+                      <option value="1981">1981</option>
+                      <option value="1980">1980</option>
+                      <option value="1979">1979</option>
+                      <option value="1978">1978</option>
+                      <option value="1977">1977</option>
+                      <option value="1976">1976</option>
+                      <option value="1975">1975</option>
+                      <option value="1974">1974</option>
+                      <option value="1973">1973</option>
+                      <option value="1972">1972</option>
+                      <option value="1971">1971</option>
+                      <option value="1970">1970</option>
+                      <option value="1969">1969</option>
+                      <option value="1968">1968</option>
+                      <option value="1967">1967</option>
+                      <option value="1966">1966</option>
+                      <option value="1965">1965</option>
+                      <option value="1964">1964</option>
+                      <option value="1963">1963</option>
+                      <option value="1962">1962</option>
+                      <option value="1961">1961</option>
+                      <option value="1960">1960</option>
+                      <option value="1959">1959</option>
+                      <option value="1958">1958</option>
+                      <option value="1957">1957</option>
+                      <option value="1956">1956</option>
+                      <option value="1955">1955</option>
+                      <option value="1954">1954</option>
+                      <option value="1953">1953</option>
+                      <option value="1952">1952</option>
+                      <option value="1951">1951</option>
+                    </select>
+                    <iconify-icon icon="lucide:chevron-down" class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-slate-400"></iconify-icon>
+                  </div>
+                </label>
+              </div>
+
+              <p class="mt-4 text-sm text-rose-600 min-h-6" data-error aria-live="polite"></p>
+
+              <button type="submit" class="mt-2 inline-flex w-full items-center justify-center rounded-2xl bg-[#34d399] px-5 py-3.5 text-sm font-bold text-white shadow-sm transition hover:bg-[#2ec998] active:scale-[0.99]">
+                Continue
+              </button>
+            </form>
+          </section>
+        </div>
+      </main>
+
+      <footer class="bg-[#1e2b4d] text-center px-5 py-10 border-t border-white/10">
+        <div class="max-w-2xl mx-auto">
+          <div class="flex justify-center items-center gap-4 mb-4 flex-wrap text-[10px] font-bold uppercase tracking-[0.18em] text-white/60">
+            <span class="inline-flex items-center gap-2"><iconify-icon icon="lucide:shield-check" class="text-lg text-[#34d399]"></iconify-icon> Secure SSL Encrypted</span>
+            <span class="hidden sm:inline-block h-3 w-px bg-white/10"></span>
+            <span>FCA Regulated</span>
+          </div>
+          <p class="text-[10px] leading-relaxed text-white/55 max-w-xl mx-auto">
+            Protected Life Limited is listed on the Financial Services Register as an Appointed Representative under reference 1060604. Protected Life Limited is registered in England and Wales. Company number 17186812. Registered office: Unit 2CA Deer Park Farm Industrial Estate, Knowle Lane, Horton Heath, Eastleigh, England, SO50 7DZ.
+          </p>
+          <a href="https://protectedlife.co.uk/privacy-policy/" target="_blank" rel="noreferrer" class="mt-4 inline-flex items-center justify-center text-[11px] font-semibold text-[#34d399] hover:text-[#2ec998] underline decoration-current underline-offset-4">
+            Privacy Policy
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
